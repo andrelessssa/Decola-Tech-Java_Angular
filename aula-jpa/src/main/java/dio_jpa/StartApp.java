@@ -4,10 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.stereotype.Component;
-
 import dio_jpa.model.User;
-import dio_jpa.repository.UserRepository;
+import dio_jpa.repository.UseerRepository;
+
 
 
 @EnableJpaRepositories(basePackages = "dio_jpa.repository")
@@ -15,7 +14,7 @@ import dio_jpa.repository.UserRepository;
 public class StartApp implements CommandLineRunner {
 
     @Autowired
-    private UserRepository repository;
+    private UseerRepository repository;
     @Override
     public void run(String... args) throws Exception {
 

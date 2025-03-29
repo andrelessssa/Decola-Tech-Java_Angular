@@ -8,7 +8,6 @@ import org.springframework.data.repository.query.Param;
 
 import dio_jpa.model.User;
 
-public interface UserRepository extends JpaRepository<User, Integer> {
 
     public interface UseerRepository extends JpaRepository<User, Integer> {
         
@@ -20,5 +19,5 @@ public interface UserRepository extends JpaRepository<User, Integer> {
         @Query("SELECT u FROM User u WHERE u.name LIKE %:name%")
         List<User> filtrarPorNome(@Param("name") String name);
     }
-}
+
 
