@@ -23,7 +23,6 @@ public class StartApp implements CommandLineRunner {
         user.setUsername("andre");
         user.setPassword("1234");
 
-        User user2 = new User();
         user.setNome("André");
         user.setUsername("andree");
         user.setPassword("1235");
