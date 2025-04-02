@@ -1,13 +1,13 @@
-package com.example.arquitetura_resto;
+package com.example.projeto_top;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ArquiteturaRestoApplication {
+public class ProjetoTopApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ArquiteturaRestoApplication.class, args);
+		SpringApplication.run(ProjetoTopApplication.class, args);
 	}
 
 }
