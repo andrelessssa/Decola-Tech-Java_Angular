@@ -24,7 +24,6 @@ public class JogadorController {
 
     @PostMapping
     public ResponseEntity<JogadorModel> save(@RequestBody JogadorModel jogadorModel){
-
         return ResponseEntity.status(HttpStatus.CREATED).body(jogadorService.save(jogadorModel));
     }
     @GetMapping

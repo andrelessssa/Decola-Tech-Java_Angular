@@ -16,9 +16,9 @@ public class JogadorService {
 
     public JogadorModel save(JogadorModel jogadorModel){
         return jogadorRepository.save(jogadorModel);
-
     }
     public List<JogadorModel> findAll(){
+
         return jogadorRepository.findAll();
     }
     public JogadorModel findByNome(String nome){
